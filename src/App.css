@@ -5,12 +5,13 @@
   align-items: center;
 }
 
-.box{
+.book{
   text-align: center;
   border: 1px solid black;
   border-radius: 10px;
   margin: 3px;
   width: 20rem;
   padding-left: 10px;
+  background-color: aquamarine;
 
 }
