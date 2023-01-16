@@ -1,12 +1,11 @@
 import Book from "./Book"
 const Books = ({ books ,input}) => {
-const filterBooks=()=>{
+// const filterBooks=()=>{
     
-}
-  
+// }
   return (
     <>
-      {books && books.map((book) => (
+      { books.map((book) => (
         
           <Book key={book.id} book={book}  />
       
