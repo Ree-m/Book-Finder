@@ -36,34 +36,30 @@ function App() {
 
   return (
     <Router>
-    <div className="app">
+      <div className="app">
 
-      <div className="search">
+        <div className="hero">
 
-        <div className="logo">
-          <h1>Book finder</h1>
+          <div className="input">
+            <h1 className="logo">Book finder</h1>
+            <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
+            <input className="btn" type="submit" value="Search" onClick={fetchData} />
+          </div>
+
+          <div className="image">
+            <img src="src/assets/images/bookFinder-image-home.svg" alt="" />
+          </div>
+
         </div>
 
-        <div className="input">
-          <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
-          <input className="btn" type="submit" value="Search" onClick={fetchData} />
+        <div>
+          {books.length > 0 && <Books books={books} />}
         </div>
 
+        <Footer />
+
+
       </div>
-
-      <div className="image">
-        <img src="src/assets/images/bookFinder-image-home.svg" alt="" />
-      </div>
-
-
-      <div className="showBooks">
-        {books.length > 0 && <Books books={books} />}
-      </div>
-
-    <Footer />
-
-
-    </div>
     </Router>
   )
 }

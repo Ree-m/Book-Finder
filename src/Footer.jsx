@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
-    <div>
+    <div className="footer"> 
       <p>Made by <Link to="">Reem</Link></p>
     </div> 
   )
