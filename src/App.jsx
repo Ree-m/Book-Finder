@@ -1,57 +1,70 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-// import Data from "../mock-data.json"
-import Book from './Book'
 import Books from './Books'
-import axios from 'axios'
+import Footer from './Footer'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 
 function App() {
-  const [showBooks, setShowBooks] = useState(false)
   const [input, setInput] = useState("")
   const [books, setBooks] = useState([])
+  const [isLoading, setIsLoading] = useState(false)
+
 
 
   const fetchData = async (e) => {
-    const input=e.target.value
-    console.log(e)
+    console.log("this is e of fetchdata", e)
+    setIsLoading(true)
+
     const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${input}`)
+
     const data = await response.json()
-    console.log(data,data.items[0],"this is e",e)
+
+    console.log(data, data.items[0], input)
     setBooks(data.items)
-}
+    setIsLoading(true)
+
+    setIsLoading(false)
+  }
 
   useEffect(() => {
-   
+
     fetchData();
-}, [])
+  }, [])
 
-  // const onSubmit = async (e) => {
-    
-  //   e.preventDefault()
-  //   console.log("submit", input)
 
-  //   const filtered = books.filter((book) => {
-  //     if (book.title.toLowerCase().includes(input.toLowerCase()) || book.author.toLowerCase().includes(input.toLowerCase()) || book.publishor.toLowerCase().includes(input.toLowerCase()) || book['published-date'].toLowerCase().includes(input.toLowerCase())) {
-  //       return book
-  //     }
-  //   })
-  //   setInput("")
-  //   setBooks(filtered)
-  //   setShowBooks(true)
-
-  // }
 
   return (
-    <div className="App">
-      <form >
-        <div className="form-control">
-          <input type="text" placeholder='Enter book name,author,date,...' onChange={fetchData} />
-        </div>
-        <input value="Submit" type="submit" />
-      </form>
+    <Router>
+    <div className="app">
 
-      {books.length > 0 && <Books books={books} /> }
+      <div className="search">
+
+        <div className="logo">
+          <h1>Book finder</h1>
+        </div>
+
+        <div className="input">
+          <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
+          <input className="btn" type="submit" value="Search" onClick={fetchData} />
+        </div>
+
+      </div>
+
+      <div className="image">
+        <img src="src/assets/images/bookFinder-image-home.svg" alt="" />
+      </div>
+
+
+      <div className="showBooks">
+        {books.length > 0 && <Books books={books} />}
+      </div>
+
+    <Footer />
+
+
     </div>
+    </Router>
   )
 }
 

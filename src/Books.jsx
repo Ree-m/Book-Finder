@@ -4,13 +4,12 @@ const Books = ({ books ,input}) => {
     
 // }
   return (
-    <>
-      { books.map((book) => (
-        
-          <Book key={book.id} book={book}  />
-      
+    <div className="books">
+      {  books.map((book) => (
+           <Book key={book.id} book={book}  />
+
       ))}
-    </>
+    </div>
   )
 }
 
