@@ -13,17 +13,13 @@ function App() {
 
 
   const fetchData = async (e) => {
-    console.log("this is e of fetchdata", e)
     setIsLoading(true)
 
     const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${input}`)
 
     const data = await response.json()
-
-    console.log(data, data.items[0], input)
+    // console.log(data, data.items[0], input)
     setBooks(data.items)
-    setIsLoading(true)
-
     setIsLoading(false)
   }
 
@@ -54,7 +50,7 @@ function App() {
 
         <div>
           {isLoading && input && <p>Loading...</p>}
-          {books.length > 0 && <Books books={books} />}
+          {books && <Books books={books} />}
         </div>
 
         <Footer />
