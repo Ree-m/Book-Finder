@@ -53,6 +53,7 @@ function App() {
         </div>
 
         <div>
+          {isLoading && input && <p>Loading...</p>}
           {books.length > 0 && <Books books={books} />}
         </div>
 

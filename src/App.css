@@ -1,56 +1,57 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   font-family: Comfortaa;
   overflow-x: hidden;
 }
 
-body{
+body {
   background-color: #7696F6;
 }
-.flex{
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap:20px
+  gap: 20px
 }
 
-.app{
-  /* flex-direction: row; */
-  /* gap:50px; */
-}
 
- .hero{
+.hero {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 
-  
- }
- .input{
+
+}
+
+.input {
   display: flex;
   flex-direction: column;
   align-items: center;
- }
- .logo{
+}
+
+.logo {
   color: #fff;
   /* text-align: center; */
   font-size: 2.5rem;
- }
- 
+}
+
 .searchBar {
   border: none;
-  height:50px;
-  width:500px;
-  border-radius:20px;
+  height: 50px;
+  width: 500px;
+  border-radius: 20px;
   border: 2px solid #fff;
   margin: 0px 10px;
 }
-.searchBar:focus{
+
+.searchBar:focus {
   outline: none;
 }
-.btn{
-  background-color:#D67086;
+
+.btn {
+  background-color: #D67086;
   border: none;
   color: white;
   padding: 16px 28px;
@@ -59,25 +60,42 @@ body{
   margin: 20px 0px;
   cursor: pointer;
   width: 50%;
-  
+
 }
-.btn:hover{
+
+Button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-2 {
+  text-decoration: none;
+  background-color: #7696F6;
+  border: none;
+  height: 28px;
+  border-radius: 20px;
+
+}
+
+.btn:hover,
+.btn-2:hover {
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
-.image img{
+.image img {
   max-width: 700px;
   height: auto;
 }
 
 /* Book */
 
-.books{
+.books {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
 }
 
-.book{
+.book {
   /* text-align: center; */
   background-color: #e4e4e4;
   border: 1px solid grey;
@@ -85,22 +103,23 @@ body{
   margin: 3px;
   width: 600px;
   height: 250px;
-  /* padding-left: 10px;   */
 
 
 }
-.bookDetails h1{
+
+.bookDetails h1 {
   font-size: 1.3rem;
   margin-bottom: 35px;
   padding-top: 15px;
-  color:#7696F6
-}
-.bookDetails h3{
-  margin-bottom: 8px;
-  font-size:1rem
+  color: #7696F6
 }
 
-.bookCover img{
+.bookDetails h3 {
+  margin-bottom: 8px;
+  font-size: 1rem
+}
+
+.bookCover img {
   /* width: 100%;  */
   /* display: flex;
   justify-content: start;
@@ -108,7 +127,245 @@ body{
   background-color: aquamarine;
 }
 
-.footer{
+
+.footer {
   text-align: center;
   margin-top: 20px;
+}
+
+/* responsive */
+/* () */
+/* @media only screen and(max-width:425px){
+  .searchBar{
+    max-width: 30%;
+    background-color: aqua;
+  }
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .books {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .input {
+    padding: 50px 20px;
+
+  }
+
+  .searchBar {
+    width: 500px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image img {
+    max-width: 550px;
+
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) from 600-768*/
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  .searchBar {
+    margin-right: 10px;
+  }
+
+  .btn {
+    width: 30%;
+    margin-right: 10px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: aquamarine;
+  }
+
+  .logo,
+  .btn,
+  .searchBar {
+    margin-right: 120px;
+  }
+
+  .books {
+    margin-left: 30px;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  .books {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .book {
+    width: 470px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+
+  }
+  .searchBar{
+    width: 300px;
+  }
+
+  .image img {
+    max-width: 350px;
+    height: auto;
+    margin-right: 100px;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: aqua;
+  }
+
+  .image img {
+    max-width: 700px;
+    height: auto;
+    padding-right: 50px;
+  }
+
+  .searchBar {
+    width: 260px
+  }
+
+  .book {
+    width: 600px;
+  }
+
+}
+@media only screen and (min-width:1600px) {
+  .books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .book{
+    width: 520px;
+  }
+  .searchBar{
+    width: 600px;
+    font-size: 1.5rem;
+
+  }
+  .logo{
+    font-size:4rem ;
+  }
+  
+  .btn{
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width:2560px) {
+  .books{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .book{
+    width: 600px;
+  }
+  .image img{
+   max-width: 1000px;
+  }
+  
+  .searchBar{
+    width: 900px;
+  }
+
+  .logo{
+    font-size: 5rem;
+  }
+  .btn{
+    font-size: 2rem;
+    width: 50%;
+
+  }
+  
+}
+
+@media only screen and (max-width:425px){
+  
+  .searchBar{
+    max-width: 55%;
+  }
+  
+  .btn{
+    width: 30%;
+  }
+  
+  .image img{
+    max-width: 450px;
+  }
+  .book{
+    max-width: 400px;
+    margin-left: 10px;
+  }
+  
+  
+}
+@media only  screen and (max-width:330px) {
+  .book{
+    max-width: 300px;
+  }
+  .image img{
+    max-width: 300px;
+  }
+  .input{
+    max-width:380px;
+
+  }
+  
+  
 }
