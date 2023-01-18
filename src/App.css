@@ -119,15 +119,6 @@ Button a {
   font-size: 1rem
 }
 
-.bookCover img {
-  /* width: 100%;  */
-  /* display: flex;
-  justify-content: start;
-  align-items: flex-end; */
-  background-color: aquamarine;
-}
-
-
 .footer {
   text-align: center;
   margin-top: 20px;
@@ -176,9 +167,6 @@ Button a {
 
 /* Small devices (portrait tablets and large phones, 600px and up) from 600-768*/
 @media only screen and (min-width: 600px) {
-  body {
-    background-color: black;
-  }
 
   .books {
     display: grid;
@@ -209,9 +197,6 @@ Button a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  body {
-    background-color: aquamarine;
-  }
 
   .logo,
   .btn,
@@ -227,9 +212,7 @@ Button a {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body {
-    background-color: antiquewhite;
-  }
+  
 
   .books {
     display: grid;
@@ -267,9 +250,7 @@ Button a {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  body {
-    background-color: aqua;
-  }
+  
 
   .image img {
     max-width: 700px;

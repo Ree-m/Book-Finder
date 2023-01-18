@@ -14,9 +14,7 @@ function App() {
 
   const fetchData = async (e) => {
     setIsLoading(true)
-
     const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${input}`)
-
     const data = await response.json()
     // console.log(data, data.items[0], input)
     setBooks(data.items)
