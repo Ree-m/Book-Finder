@@ -30,7 +30,7 @@ function App() {
 
   // footer redirect
   const handleClick=()=>{
-    window.location.replace("https://github.com/Ree-m")
+    window.open("https://github.com/Ree-m", '_blank')
   }
 
 
