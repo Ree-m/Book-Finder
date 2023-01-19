@@ -11,12 +11,12 @@ const Book = ({ book }) => {
           }
         </div>
 
-        <div className="bookDetails">
+        <div className="bookCard">
           <h1>{book.volumeInfo.title}</h1>
           <h3>{book.volumeInfo.authors ? `Authors:${book.volumeInfo.authors}` : `Author:n/a`}</h3>
-          <h3>{book.volumeInfo.publishedDate ? `Published-date:${book.volumeInfo.publishedDate}` : `Published-date:n/a`}</h3>
+          <h3>{book.volumeInfo.publishedDate ? `Published Date:${book.volumeInfo.publishedDate}` : `Published-date:n/a`}</h3>
           <h3>{book.volumeInfo.publisher ? `Publisher:${book.volumeInfo.publisher}` : `Publisher:n/a`}</h3>
-          <button className="btn-2"><Link to="">See More</Link></button>
+          <button className="btn-2"><Link to={`/bookDetails/${book.id}`}>See More</Link></button>
 
         </div>
 

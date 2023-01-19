@@ -1,9 +1,10 @@
 import {Link} from 'react-router-dom'
-const Footer = () => {
+const Footer = ({onClick}) => {
   return (
-    <div className="footer"> 
-      <p>Made by <Link to="">Reem</Link></p>
-    </div> 
+    <div className="footer">
+      <p>Made by <button onClick={onClick}>Reem</button></p>
+    </div>
+  
   )
 }
 

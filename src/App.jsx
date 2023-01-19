@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Books from './Books'
+import Book from './Book'
 import Footer from './Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
@@ -27,31 +28,44 @@ function App() {
   }, [])
 
 
+  // footer redirect
+  const handleClick=()=>{
+    window.location.replace("https://github.com/Ree-m")
+  }
+
 
   return (
     <Router>
       <div className="app">
+        <Routes>
+          <Route path="/" exact element={
+            <>
+              <div className="hero">
 
-        <div className="hero">
+                <div className="input">
+                  <h1 className="logo">Book finder</h1>
+                  <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
+                  <input className="btn" type="submit" value="Search" onClick={fetchData} />
+                </div>
 
-          <div className="input">
-            <h1 className="logo">Book finder</h1>
-            <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
-            <input className="btn" type="submit" value="Search" onClick={fetchData} />
-          </div>
+                <div className="image">
+                  <img src="src/assets/images/bookFinder-image-home.svg" alt="" />
+                </div>
 
-          <div className="image">
-            <img src="src/assets/images/bookFinder-image-home.svg" alt="" />
-          </div>
+              </div>
 
-        </div>
+              <div>
+                {isLoading && input && <p>Loading...</p>}
+                {books && <Books books={books} />}
+              </div>
 
-        <div>
-          {isLoading && input && <p>Loading...</p>}
-          {books && <Books books={books} />}
-        </div>
+              <Footer onClick={handleClick} />
 
-        <Footer />
+            </>
+          } />
+        </Routes>
+
+      
 
 
       </div>
