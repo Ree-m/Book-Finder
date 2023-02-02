@@ -167,7 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Reem Bsrat - [@xyz](https://twitter.com) - 
+Reem Bsrat  - 
 reembsrat@gmail.com
 
 Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/BookFinder)
