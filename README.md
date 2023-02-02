@@ -88,9 +88,14 @@
 
 This project was inspired by the repository APP IDEAS.To develop this web page, I used react and Google Books Api.
 
+To get a local copy up and running follow these simple steps.
+
+
+
 ### Prerequisites
 
 To use the software locally, you need
+
 * Npm or Yarn
 * React
 
