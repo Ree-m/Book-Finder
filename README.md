@@ -18,10 +18,10 @@
     <img src="src/assets/images/cover.png" height="80" />
   </a>
 
-  <h3 align="center">Book Finder App</h3>
+  <h3 align="center">Book Finder</h3>
 
   <p align="center">
-  Welcome to bookFinder, find books by author name, book title, publisher or date.
+  Welcome to Book Finder, find books by author name, book title, publisher or date.
     <br />
     <a href="https://github.com/Ree-m/BookFinder"><strong>Explore the docs »</strong></a>
     <br />
