@@ -21,7 +21,7 @@
   <h3 align="center">Book Finder App</h3>
 
   <p align="center">
-  Welcome to bookFinder,find books by author name, book title, publisher or date.
+  Welcome to bookFinder, find books by author name, book title, publisher or date.
     <br />
     <a href="https://github.com/Ree-m/BookFinder"><strong>Explore the docs »</strong></a>
     <br />
@@ -196,6 +196,6 @@ Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/Boo
 [issues-url]: https://github.com/Ree-m/BookFinder/issues
 [license-shield]: https://img.shields.io/github/license/Ree-m/BookFinder.svg?style=for-the-badge
 [license-url]: https://github.com/Ree-m/BookFinder/blob/main/LICENSE.txt
-[bookfinder-screenshot]: images/bookFinder-screenshot.png
+[bookFinder-screenshot]: src/assets/images/bookFinder-screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
