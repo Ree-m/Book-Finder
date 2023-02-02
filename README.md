@@ -1,5 +1,5 @@
 
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
 
 
@@ -167,7 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Reem Bsrat - [@your_twitter](https://twitter.com/your_username) - 
+Reem Bsrat - [@xyz](https://twitter.com) - 
 reembsrat@gmail.com
 
 Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/BookFinder)
@@ -189,8 +189,6 @@ Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/Boo
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Ree-m/BookFinder.svg?style=for-the-badge
 [contributors-url]: https://github.com/Ree-m/BookFinder/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Ree-m/BookFinder.svg?style=for-the-badge
