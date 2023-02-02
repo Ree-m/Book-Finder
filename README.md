@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ree-m/BookFinder">
-    <img src="src/assets/images/bookFinder-logo.png" width="80" height="80"/>
+    <img src="src/assets/images/bookFinder-logo.png" height="80"/>
   </a>
 
   <h3 align="center">Book Finder App</h3>
