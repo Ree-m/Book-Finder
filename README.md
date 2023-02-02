@@ -8,7 +8,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -22,7 +21,7 @@
   <h3 align="center">Book Finder App</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+  Welcome to bookFinder,find books by author name, book title, publisher or date.
     <br />
     <a href="https://github.com/Ree-m/BookFinder"><strong>Explore the docs »</strong></a>
     <br />
@@ -87,11 +86,11 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This project was inspired by the repository APP IDEAS.To develop this web page,I used react and Google Books Api.
+This project was inspired by the repository APP IDEAS.To develop this web page, I used react and Google Books Api.
 
 ### Prerequisites
 
-To use the software locally,you need
+To use the software locally, you need
 * Npm or Yarn
 * React
 
@@ -197,6 +196,6 @@ Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/Boo
 [issues-url]: https://github.com/Ree-m/BookFinder/issues
 [license-shield]: https://img.shields.io/github/license/Ree-m/BookFinder.svg?style=for-the-badge
 [license-url]: https://github.com/Ree-m/BookFinder/blob/main/LICENSE.txt
-[bookfinder-screenshot]: /home/remi/input-search-react-test/src/assets/images/bookFinder-screenshot.png
+[bookfinder-screenshot]: images/bookFinder-screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
