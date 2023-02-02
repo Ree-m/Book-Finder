@@ -4,6 +4,7 @@ import Books from './Books'
 import Book from './Book'
 import Footer from './Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import image from '/home/remi/input-search-react-test/src/assets/images/bookFinder-image-home.svg'
 
 
 function App() {
@@ -49,7 +50,7 @@ function App() {
                 </div>
 
                 <div className="image">
-                  <img src="src/assets/images/bookFinder-image-home.svg" alt="" />
+                  <img src={image} alt="" />
                 </div>
 
               </div>
