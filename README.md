@@ -26,7 +26,7 @@
     <a href="https://github.com/Ree-m/BookFinder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://harmonious-arithmetic-c0d159.netlify.app/">View Demo</a>
+    <a href="https://genuine-beignet-abbd68.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/Ree-m/BookFinder/issues">Report Bug</a>
     ·
@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![BookFinder Screen Shot][bookFinder-screenshot]](https://harmonious-arithmetic-c0d159.netlify.app)
+[![BookFinder Screen Shot][bookFinder-screenshot]](https://genuine-beignet-abbd68.netlify.app/)
 
 
 
