@@ -13,7 +13,10 @@ function App() {
         <Routes>
           <Route path="/" exact element={<HomePage/> } />
 
-          <Route path="/bookDetails/:bookId" element={<BookDetailsPage />} />
+          <Route path="/bookDetails/:bookId"
+                 element={<BookDetailsPage />}
+                 render={(props) => <BookDetails {...props} bookId={props.match.params.id} />}
+                 />
 
         </Routes>
 
