@@ -107,7 +107,7 @@ What you need to install to run the system locally
    npm install
    ```
    ```sh
-   npm run start
+   npm run dev
    ```
 
    or if you use yarn
@@ -116,7 +116,7 @@ What you need to install to run the system locally
    yarn install
    ```
    ```sh
-   yarn start
+   yarn dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
