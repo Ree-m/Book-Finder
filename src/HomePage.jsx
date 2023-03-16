@@ -3,6 +3,8 @@ import image from '/home/remi/input-search-react-test/src/assets/images/bookFind
 import Books from './Books'
 import Book from './Book'
 import Footer from './Footer'
+import Button from 'react-bootstrap/Button';
+
 
 const HomePage = () => {
     const [input, setInput] = useState("")
@@ -39,8 +41,9 @@ const HomePage = () => {
                   <form onSubmit={fetchData} action="#">
                         <h1 className="logo">Book finder</h1>
                         <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
-                        <input className="btn" type="submit" value="Search"  /> 
+                        <Button type="submit" variant="primary">Search</Button>
                   </form>
+
 
 
                 </div>

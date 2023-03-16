@@ -14,7 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Ree-m/BookFinder">
+  <a href="https://splendid-churros-af3da7.netlify.app/">
     <img src="src/assets/images/cover.png" height="80" />
   </a>
 
@@ -26,7 +26,7 @@
     <a href="https://github.com/Ree-m/BookFinder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://genuine-beignet-abbd68.netlify.app/">View Demo</a>
+    <a href="https://splendid-churros-af3da7.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/Ree-m/BookFinder/issues">Report Bug</a>
     ·
