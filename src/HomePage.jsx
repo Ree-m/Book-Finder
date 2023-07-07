@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react"
-import image from '/home/remi/input-search-react-test/src/assets/images/bookFinder-image-home.svg'
+import image from '/src/assets/images/bookFinder-image-home.svg'
 import Books from './Books'
 import Book from './Book'
 import Footer from './Footer'

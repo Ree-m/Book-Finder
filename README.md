@@ -126,7 +126,6 @@ What you need to install to run the system locally
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 It can be easy to forget the name of a book you want to read but remember the author's name.Knowing this, I decided to develop a book finding app to make it easier to search for books.
 
