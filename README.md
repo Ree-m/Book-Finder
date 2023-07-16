@@ -23,14 +23,14 @@
   <p align="center">
   Welcome to Book Finder, find books by author name, book title, publisher or date.
     <br />
-    <a href="https://github.com/Ree-m/BookFinder"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Ree-m/book-finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://splendid-churros-af3da7.netlify.app/">View Demo</a>
+    <a href="https://book-finder-lfxo.onrender.com/">View Demo</a>
     ·
-    <a href="https://github.com/Ree-m/BookFinder/issues">Report Bug</a>
+    <a href="https://github.com/Ree-m/book-finder/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Ree-m/BookFinder/issues">Request Feature</a>
+    <a href="https://github.com/Ree-m/book-finder/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![BookFinder Screen Shot][bookFinder-screenshot]](https://genuine-beignet-abbd68.netlify.app/)
+[![BookFinder Screen Shot][bookFinder-screenshot]](https://book-finder-lfxo.onrender.com/)
 
 
 
@@ -169,7 +169,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Reem Bsrat  - 
 reembsrat@gmail.com
 
-Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/BookFinder)
+Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/book-finder)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
