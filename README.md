@@ -14,9 +14,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://splendid-churros-af3da7.netlify.app/">
+<!--   <a href="https://splendid-churros-af3da7.netlify.app/">
     <img src="src/assets/images/cover.png" height="80" />
-  </a>
+  </a> -->
 
   <h3 align="center">Book Finder</h3>
 
