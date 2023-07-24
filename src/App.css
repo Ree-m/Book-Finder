@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0px;
   font-family: Comfortaa;
@@ -33,9 +33,7 @@ body {
 
 .logo {
   color: #fff;
-  /* text-align: center; */
   font-size: 2.5rem;
-  /* margin-left: 50px; */
 }
 
 .searchBar {
@@ -88,7 +86,6 @@ Button a {
   height: auto;
 }
 
-/* Book */
 
 .books {
   display: grid;
@@ -97,7 +94,6 @@ Button a {
 }
 
 .book {
-  /* text-align: center; */
   background-color: #e4e4e4;
   border: 1px solid grey;
   border-radius: 10px;
@@ -133,16 +129,7 @@ Button a {
   font-size: 1rem;
 }
 
-/* responsive */
-/* () */
-/* @media only screen and(max-width:425px){
-  .searchBar{
-    max-width: 30%;
-    background-color: aqua;
-  }
-} */
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .books {
     display: grid;
@@ -174,7 +161,6 @@ Button a {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) from 600-768*/
 @media only screen and (min-width: 600px) {
 
   .books {
@@ -204,7 +190,6 @@ Button a {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
   .logo,
@@ -219,7 +204,6 @@ Button a {
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   
 
@@ -257,7 +241,6 @@ Button a {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   
 
@@ -276,7 +259,6 @@ Button a {
   }
 
 }
-/* Extra large  */
 @media only screen and (min-width:1600px) {
   .books{
     display: grid;
@@ -372,4 +354,21 @@ Button a {
   }
   
   
+} */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --purple: #7696F6;
+  --pink:#D67086;
+  --white:#fff;
+  --grey: #F0F0F0;
+  --dark-grey: #303030;
 }
+
+
+body {
+  background-color: var(--purple);
+}
+

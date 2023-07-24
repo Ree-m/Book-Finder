@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  min-height: 100vh;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width:100%; */
+  /* justify-content: center; */
+}
+
+.logo {
+  color: var(--white);
+  font-size:3rem;
+}
+.btn {
+  background-color: var(--pink);
+  color: var(--white);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  padding: 16px 28px;
+  border-radius: 10px;
+}
+
+.searchBar{
+    width: 500px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 1.05rem;
+
+}
+.searchBar:focus{
+    outline: none;
+}

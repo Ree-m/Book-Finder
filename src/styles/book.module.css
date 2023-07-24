@@ -1,0 +1,45 @@
+.book {
+  background-color: var(--grey);
+  display: flex;
+  gap: 15px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+.bookInfo h1 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  color: var(--pink);
+}
+
+.bookInfo h3 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: var(--dark-grey);
+}
+.imgContainer {
+  width: 150px;
+  height: 200px;
+}
+
+.bookCover {
+  width: 100%;
+  height: auto;
+}
+
+.btn a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.btn {
+  text-decoration: none;
+  background-color: var(--pink);
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}

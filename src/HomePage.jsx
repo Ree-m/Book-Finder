@@ -1,68 +1,65 @@
-import { useState,useEffect } from "react"
-import image from '/src/assets/images/bookFinder-image-home.svg'
-import Books from './Books'
-import Book from './Book'
-import Footer from './Footer'
-import Button from 'react-bootstrap/Button';
-
+import { useState } from "react";
+import image from "/src/assets/images/bookFinder-image-home.svg";
+import Books from "./Books";
+import Book from "./Book";
+import Footer from "./Footer";
+import styles from "./styles/homePage.module.css";
 
 const HomePage = () => {
-    const [input, setInput] = useState("")
-  const [books, setBooks] = useState([])
-  const [isLoading, setIsLoading] = useState(false)
+  const [input, setInput] = useState("");
+  const [books, setBooks] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-
-
-  const fetchData = async (e) => {
-    setIsLoading(true)
-    const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${input}`)
-    const data = await response.json()
-    // console.log(data, data.items[0], input)
-    setBooks(data.items)
-    setIsLoading(false)
+  async function fetchData() {
+    setIsLoading(true);
+    const response = await fetch(
+      `https://www.googleapis.com/books/v1/volumes?q=${input}`
+    );
+    const data = await response.json();
+    console.log(data, data.items)
+    setBooks(data.items);
+    setIsLoading(false);
   }
 
-  useEffect(() => {
-
+  const handleSubmit = (e) => {
+    e.preventDefault();
     fetchData();
-  }, [])
-
-
+  };
   // footer redirect
-  const handleClick=()=>{
-    window.open("https://github.com/Ree-m", '_blank')
-  }
+  const handleClick = () => {
+    window.open("https://github.com/Ree-m", "_blank");
+  };
 
-    return ( 
-        <>
-              <div className="hero">
+  return (
+    <div className={styles.homePage}>
+      <div className={styles.hero}>
 
-                <div className="input">
-                  <form onSubmit={fetchData} action="#">
-                        <h1 className="logo">Book finder</h1>
-                        <input className="searchBar" type="text" placeholder='Enter book name,author,date,...' onChange={(e) => setInput(e.target.value)} />
-                        <Button type="submit" variant="primary">Search</Button>
-                  </form>
+        <form onSubmit={handleSubmit} className={styles.form}>
+          <h1 className={styles.logo}>Book finder</h1>
 
+          <input
+            className={styles.searchBar}
+            type="text"
+            placeholder="Enter book name,author,date,..."
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <input type="submit" value="Submit" className={styles.btn} />
+        </form>
 
+      {/* <div className={styles.imageContainer}> */}
+        <img src={image} alt="Home Page image" className={styles.image}/>
+      {/* </div> */}
 
-                </div>
+      </div>
 
-                <div className="image">
-                  <img src={image} alt="" />
-                </div>
+      <div className={styles.books}>
+        {isLoading && input && <p>Loading...</p>}
+        {books && <Books books={books} />}
+      </div>
 
-              </div>
+      {/* <Footer onClick={handleClick} /> */}
+    </div>
+  );
+};
 
-              <div>
-                {isLoading && input && <p>Loading...</p>}
-                {books && <Books books={books} />}
-              </div>
-
-              <Footer onClick={handleClick} />
-
-            </>
-     );
-}
- 
 export default HomePage;
