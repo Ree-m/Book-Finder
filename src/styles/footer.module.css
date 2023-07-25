@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     background-color: #343a40;
+     margin-top: 24px;
+     padding:20px 0px;
+}
+
+.logo{
+    color:var(--light-blue);
+    font-size: 1.8rem;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+.footerLinks{
+    display: flex;
+    gap: 15px;
+    font-size: 1.8rem;
+}
+.footer p{
+    color: var(--white);
+}

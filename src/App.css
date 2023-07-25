@@ -364,11 +364,17 @@ Button a {
 
   --purple: #7696F6;
   --pink:#D67086;
-  --white:#fff;
-  --grey: #F0F0F0;
-  --dark-grey: #303030;
 
   --bg: rgb(239, 242, 241);
+  --blue:#62add7;
+  --light-blue:#89c6ff;
+  --white:#fff;
+  --grey:#403e3e;
+  --dark-grey:#212529;
+  --bg-blue:#a2d2ff;
+
+
+
 }
 
 

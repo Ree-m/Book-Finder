@@ -1,0 +1,16 @@
+ .section3{
+    margin: 0px 32px;
+padding:48px 15px 48px 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10%;
+ }
+
+ .col img{
+    margin-bottom: 48px;
+ }
+
+ .col p{
+    color: var(--grey);
+ }

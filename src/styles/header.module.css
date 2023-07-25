@@ -1,0 +1,23 @@
+.header{
+    margin: 20px 60px;
+    padding:8px 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    color:var(--light-blue);
+    font-size: 1.8rem;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color:var(--grey);
+    padding:8px;
+    color:rgba(0,0,0,.5);
+
+}
+
+.navLinks a:hover{
+    color: var(--dark-grey);
+}
