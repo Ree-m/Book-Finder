@@ -1,8 +1,11 @@
 import { useState } from "react";
-import image from "/src/assets/images/bookFinder-image-home.svg";
 import Books from "./Books";
 import Book from "./Book";
 import Footer from "./Footer";
+import Hero from "./Hero";
+import Section1 from "./Section1";
+import Section2 from "./Section2";
+import Section3 from "./Section3";
 import styles from "./styles/homePage.module.css";
 
 const HomePage = () => {
@@ -32,7 +35,11 @@ const HomePage = () => {
 
   return (
     <div className={styles.homePage}>
-      <div className={styles.hero}>
+      <Hero/>
+      <Section1/>
+      <Section2/>
+      <Section3/>
+      {/* <div className={styles.hero}>
 
         <form onSubmit={handleSubmit} className={styles.form}>
           <h1 className={styles.logo}>Book finder</h1>
@@ -46,18 +53,15 @@ const HomePage = () => {
           <input type="submit" value="Submit" className={styles.btn} />
         </form>
 
-      {/* <div className={styles.imageContainer}> */}
         <img src={image} alt="Home Page image" className={styles.image}/>
-      {/* </div> */}
 
-      </div>
+      </div> */}
 
-      <div className={styles.books}>
-        {isLoading && input && <p>Loading...</p>}
+      {/* <div className={styles.books}>
+        {isLoading && input && <span>Loading...</span>}
         {books && <Books books={books} />}
-      </div>
+      </div> */}
 
-      {/* <Footer onClick={handleClick} /> */}
     </div>
   );
 };

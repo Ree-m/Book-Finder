@@ -1,11 +1,18 @@
-import {Link} from 'react-router-dom'
-const Footer = ({onClick}) => {
+import { Link } from "react-router-dom";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+
+const Footer = ({ onClick }) => {
   return (
     <div className="footer">
-      <p>Made by<button onClick={onClick}>Reem</button></p>
+      <h1>Book Finder</h1>
+      <p> Copyright © 2023 Reem</p>
+      
+      <div>
+        <BsGithub />
+        <BsLinkedin />
+      </div>
     </div>
-  
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

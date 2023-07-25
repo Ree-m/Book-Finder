@@ -1,3 +1,6 @@
+.homePage{
+    padding: 0px 30px;
+}
 .hero {
   display: flex;
   align-items: center;
@@ -15,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width:100%; */
+  width:100%;
   /* justify-content: center; */
 }
 
@@ -26,16 +29,17 @@
 .btn {
   background-color: var(--pink);
   color: var(--white);
-  border-radius: 5px;
+  border-radius: 15px !important;
   border: none;
   cursor: pointer;
   padding: 5px;
-  padding: 16px 28px;
+  padding: 16px 30px;
   border-radius: 10px;
+  font-size: 1.05rem;
 }
 
 .searchBar{
-    width: 500px;
+    width: 100%;
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -45,4 +49,33 @@
 }
 .searchBar:focus{
     outline: none;
+}
+
+.books span{
+    color: var(--white);
+}
+
+@media(max-width:499px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media(min-width:500px) and (max-width:767px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .image{
+        width: 80%;
+        height: 80%;
+    }
 }

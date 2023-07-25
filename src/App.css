@@ -360,15 +360,19 @@ Button a {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Comfortaa, "sans-serif";
+
   --purple: #7696F6;
   --pink:#D67086;
   --white:#fff;
   --grey: #F0F0F0;
   --dark-grey: #303030;
+
+  --bg: rgb(239, 242, 241);
 }
 
 
 body {
-  background-color: var(--purple);
+  background-color: var(--bg);
 }
 
