@@ -6,6 +6,9 @@
      margin-top: 24px;
      padding:20px 0px;
 }
+.footer a{
+    text-decoration: none;
+}
 
 .logo{
     color:var(--light-blue);

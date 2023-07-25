@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
 
+    
+}
+.header a{
+    text-decoration: none;
 }
 .logo{
     color:var(--light-blue);

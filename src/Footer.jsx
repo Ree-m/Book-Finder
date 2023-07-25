@@ -4,7 +4,7 @@ import styles from "./styles/footer.module.css"
 const Footer = ({ onClick }) => {
   return (
     <div className={styles.footer}>
-      <h1 className={styles.logo}>Book Finder</h1>
+      <Link to={`/`}><h1 className={styles.logo}>Book Finder</h1></Link>
       <p> Copyright © 2023 Reem</p>
       
       <div className={styles.footerLinks}>

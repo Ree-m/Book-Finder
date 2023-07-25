@@ -28,7 +28,7 @@ const Search = () => {
         author or publisher, just type, search and find
       </p>
       <form onSubmit={handleSubmit}>
-        <input type="text" onChange={(e) => setInput(e.target.value)} />
+        <input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Type book name, author, date,..."/>
       </form>
 
       {isLoading ? (
