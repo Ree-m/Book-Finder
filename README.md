@@ -136,10 +136,12 @@ What you need to install to run the system locally
 
 It can be easy to forget the name of a book you want to read but remember the author's name.Knowing this, I decided to develop a book finding app to make it easier to search for books.
 
+In in the search bar, you can type book name, author, publishor, date of release and get the following results.
 <img src="public/assets/images/readme/bookfinder-search.jpg" alt="Image of search results" />
 
 <img src="public/assets/images/readme/book-finder-search-page.jpg" alt="Imageof search page" />
 
+After clicking on a book, you can see this page containing detailed information on the book.
 <img src="public/assets/images/readme/book-finder-details-page.jpg" alt="Image of book details page" />
 
 
@@ -196,6 +198,7 @@ Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/boo
 * [Img Shields](https://shields.io)
 * [Netlify](https://www.netlify.com/)
 * [freepik](https://freepik.com)
+* [Design](https://github.com/awkiamaru)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
