@@ -173,10 +173,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Reem Bsrat  - 
-reembsrat@gmail.com
+Reem Bsrat  - reembsrat@gmail.com
 
-Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/book-finder)
+Project Link: [https://github.com/Ree-m/book-finder](https://book-finder-lfxo.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
