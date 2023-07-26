@@ -20,6 +20,7 @@
     border: none;
     font-size: 1.05rem;
     cursor: pointer;
+    background-color: transparent;
 
 }
 
@@ -39,6 +40,8 @@
     color:rgba(0,0,0,.5);
     font-size: 1.05rem;
     cursor: pointer;
+    background-color: transparent;
+
 
 }
 .menuItems button:hover{

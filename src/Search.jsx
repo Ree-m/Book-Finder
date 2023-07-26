@@ -33,7 +33,7 @@ const Search = () => {
 
       {isLoading ? ( 
         <div className={styles.imgContainer}>
-          <img src="src/assets/images/searching.svg" alt="" />
+          <img src="/assets/images/searching.svg" alt="" />
         </div>
        
       ) : (
@@ -44,7 +44,7 @@ const Search = () => {
            
           ) : (
             <div className={styles.imgContainer}>
-            <img src="src/assets/images/search.svg" alt="" />
+            <img src="/assets/images/search.svg" alt="" />
           </div>
           )}
         </div>

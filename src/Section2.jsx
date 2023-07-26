@@ -8,7 +8,7 @@ const Section2 = () => {
       <h2>All the books you look for in one place</h2>
       </div>
 
-        <img src="src/assets/images/home-4.svg" alt="Image of this section" />
+        <img src="/assets/images/home-4.svg" alt="Image of this section" />
     </div>
   )
 }
