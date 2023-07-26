@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     background-color: #343a40;
+     margin-top: 24px;
+     padding:20px 0px;
+     position: sticky;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.logo{
+    color:var(--light-blue);
+    font-size: 1.8rem;
+}
+.footerLinks button{
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.8rem;
+
+}
+
+.footerLinks{
+    display: flex;
+    gap: 15px;
+}
+.footer p{
+    color: var(--white);
+}
+
+@media(max-width:767px){
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
