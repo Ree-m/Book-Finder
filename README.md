@@ -72,7 +72,7 @@
 - React
 - CSS modules
 - Google Books API
--Node.js
+- Node.js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
