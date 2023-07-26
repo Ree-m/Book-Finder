@@ -20,7 +20,7 @@ const Search = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     fetchData();
-  };
+  }; 
   return (
     <div className={styles.search}>
       <p>
@@ -28,7 +28,8 @@ const Search = () => {
         author or publisher, just type, search and find
       </p>
       <form onSubmit={handleSubmit}>
-        <input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Type book name, author, date,..."/>
+        <input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Type book name, author,..."/>
+        <input type="submit" value="Submit" className={styles.submitBtn}  />
       </form>
 
       {isLoading ? ( 
