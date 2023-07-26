@@ -21,3 +21,24 @@
     font-weight: 400;
 
  }
+ @media(max-width:575px){
+   .section2 img{
+      max-width: 100%;
+      height: auto;
+   
+   }
+   .section2{
+      padding: 15px;
+      padding-bottom: 48px;
+   }
+   .section2 h2{
+      text-align: center;
+   }
+ }
+
+ @media (min-width:576px) and (max-width:767px){
+.section2 h2{
+   text-align: center;
+}
+
+ }

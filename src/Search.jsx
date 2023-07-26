@@ -31,7 +31,7 @@ const Search = () => {
         <input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Type book name, author, date,..."/>
       </form>
 
-      {isLoading ? (
+      {isLoading ? ( 
         <div className={styles.imgContainer}>
           <img src="src/assets/images/searching.svg" alt="" />
         </div>

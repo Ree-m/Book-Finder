@@ -7,7 +7,7 @@ const Section1 = () => {
       <h2>The importance of reading books</h2>
 
       </div>
- 
+  
       <div className={styles.row} >
         <div>
           <h4>Reading practice improves vocabulary</h4>

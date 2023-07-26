@@ -23,8 +23,14 @@ function BookDetailsPage() {
       }
     };
 
+  
+
     fetchBook();
   }, [bookId]);
+
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
 
   // if(loading){
   //     <Loading/>
@@ -33,7 +39,8 @@ function BookDetailsPage() {
     <>
       {book.volumeInfo && (
         <div className={styles.bookDetails}>
-          <div>
+          <div className={styles.details1}>
+            <div className={styles.details1Top}>
             <h2>{book.volumeInfo.title}</h2>
             <div className={styles.imageContainer}>
               <img
@@ -42,11 +49,13 @@ function BookDetailsPage() {
                 alt={book.volumeInfo.title}
               />
             </div>
+            </div>
+         
 
             <h3>
               {book.volumeInfo.authors
                 ? `Authors: ${book.volumeInfo.authors}`
-                : `Author:n/a`}
+                : `Author:n/a`} 
             </h3>
             <h3>
               {book.volumeInfo.publishedDate
@@ -58,17 +67,24 @@ function BookDetailsPage() {
                 ? `Publisher: ${book.volumeInfo.publisher}`
                 : `Publisher:n/a`}
             </h3>
+
+            <h3>
+              {book.volumeInfo.pageCount
+                ? `Number of pages: ${book.volumeInfo.pageCount}`
+                : `Publisher:n/a`}
+            </h3>
           </div>
-          <div>
+
+          <div className={styles.details2}>
             <h2>Book Description</h2>
             <p>
               {book.volumeInfo.description
-                ? book.volumeInfo.description
+                ? book.volumeInfo.description.replace(/<p>|<\/p>|<br>/g,"")
                 : "Description not available."}
             </p>
             <div className={styles.btns}>
-                <Link to={`/`}>Read Sample</Link>
-                <Link to={`/`}>Buy book</Link>
+                <button onClick={()=>openInNewTab(book.accessInfo.webReaderLink)}>Read Sample</button>
+                <button onClick={()=>openInNewTab(book.saleInfo.buyLink )}>Buy Book</button>
 
             </div>
           </div>

@@ -1,14 +1,18 @@
-.books{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-
-@media(max-width:767px){
-
-.books{
+@media (max-width: 575px) {
+  .books {
     display: grid;
     grid-template-columns: 1fr;
+  }
 }
 
+@media (min-width: 576px) and (max-width: 990px) {
+  .books {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

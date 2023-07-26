@@ -13,4 +13,29 @@ gap: 10%;
 
  .col p{
     color: var(--grey);
+    font-size: 0.9rem;
+ }
+
+ @media (max-width:575px){
+   .section3{
+       margin: 0px;
+       flex-direction: column;
+       gap: 50px;
+    
+
+   }
+   .col img{
+      margin-bottom: 16px;
+   }
+   }
+
+ @media (min-width:576px) and (max-width:767px){
+   .section3{
+      flex-direction: column;
+      margin:0px 108px;
+      gap: 50px;
+   }
+   .col img{
+      margin-bottom: 16px;
+   }
  }
