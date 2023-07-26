@@ -18,13 +18,13 @@ const Section1 = () => {
         </div>
 
         <div  className={styles.imgContainer}>
-          <img src="src/assets/images/home-1.svg" alt="Image of this section" />
+          <img src="/assets/images/home-1.svg" alt="Image of this section" />
         </div>
       </div>
 
       <div  className={styles.row}>
         <div className={styles.imgContainer}>
-          <img src="src/assets/images/home-2.svg" alt="Image of this section" />
+          <img src="/assets/images/home-2.svg" alt="Image of this section" />
         </div>
 
         <div className={styles.right}>
@@ -47,7 +47,7 @@ const Section1 = () => {
         </div>
 
         <div  className={styles.imgContainer}>
-          <img src="src/assets/images/home-3.svg" alt="Image of this section" />
+          <img src="/assets/images/home-3.svg" alt="Image of this section" />
         </div>
       </div>
     </div>
