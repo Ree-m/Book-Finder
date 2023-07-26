@@ -14,7 +14,7 @@ const Header = () => {
         <h1 className={styles.logo}>Book Finder</h1>
       </Link>
       <nav className={styles.navLinks}>
-        <button onClick={() => openInNewTab("https://github.com/Ree-m")}>About</button>
+        <button onClick={() => openInNewTab("https://github.com/Ree-m/book-finder/blob/main/README.md")}>About</button>
         <button onClick={() => openInNewTab("https://www.linkedin.com/in/reembsrat/")}>Contact</button>
       </nav>
       <div className={styles.menu}>
@@ -23,7 +23,7 @@ const Header = () => {
         </button>
         {toggleMenu ? (
           <div className={styles.menuItems}>
-            <button onClick={() => openInNewTab("https://github.com/Ree-m")}>About</button>
+            <button onClick={() => openInNewTab("https://github.com/Ree-m/book-finder/blob/main/README.md")}>About</button>
             <button onClick={() => openInNewTab("https://www.linkedin.com/in/reembsrat/")}>Contact</button>
           </div>
         ) : null}

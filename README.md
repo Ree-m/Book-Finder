@@ -77,11 +77,17 @@
 
 ### Built With
 
-
-* [![React][React.js]][React-url]
+- React
+- CSS modules
+- Google Books API
+-Node.js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Live Demo
+
+[Live Demo](https://book-finder-lfxo.onrender.com/)
 
 
 <!-- GETTING STARTED -->
@@ -129,6 +135,12 @@ What you need to install to run the system locally
 
 
 It can be easy to forget the name of a book you want to read but remember the author's name.Knowing this, I decided to develop a book finding app to make it easier to search for books.
+
+<img src="public/assets/images/readme/bookfinder-search.jpg" alt="Image of search results" />
+
+<img src="public/assets/images/readme/book-finder-search-page.jpg" alt="Imageof search page" />
+
+<img src="public/assets/images/readme/book-finder-details-page.jpg" alt="Image of book details page" />
 
 
 
@@ -199,6 +211,6 @@ Project Link: [https://github.com/Ree-m/BookFinder](https://github.com/Ree-m/boo
 [issues-url]: https://github.com/Ree-m/BookFinder/issues
 [license-shield]: https://img.shields.io/github/license/Ree-m/BookFinder.svg?style=for-the-badge
 [license-url]: https://github.com/Ree-m/BookFinder/blob/main/LICENSE.txt
-[bookFinder-screenshot]: src/assets/images/bookFinder-screenshot.png
+[bookFinder-screenshot]: public/assets/images/readme/book-finder-home.jpg
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/

@@ -79,7 +79,7 @@ function BookDetailsPage() {
             <h2>Book Description</h2>
             <p>
               {book.volumeInfo.description
-                ? book.volumeInfo.description.replace(/<p>|<\/p>|<br>/g,"")
+                ? book.volumeInfo.description.replace(/<p>|<\/p>|<br>|<b>|<\/b>/g,"")
                 : "Description not available."}
             </p>
             <div className={styles.btns}>
