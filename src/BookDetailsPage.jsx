@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./styles/bookDetails.module.css";
 import { Link } from "react-router-dom";
-
+import Loading from "./Loading.jsx"
 function BookDetailsPage() {
   const [book, setBook] = useState({});
   const { bookId } = useParams();
@@ -32,9 +32,9 @@ function BookDetailsPage() {
     window.open(url, "_blank", "noreferrer");
   };
 
-  // if(loading){
-  //     <Loading/>
-  // }
+  if(loading){
+      <Loading/>
+  }
   return (
     <>
       {book.volumeInfo && (

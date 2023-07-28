@@ -19,7 +19,7 @@
     <a href="https://github.com/Ree-m/book-finder"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://book-finder-lfxo.onrender.com/">View Demo</a>
+    <a href="https://book-finder-tau.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/Ree-m/book-finder/issues">Report Bug</a>
     ·
@@ -59,7 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![BookFinder Screen Shot][bookFinder-screenshot]](https://book-finder-lfxo.onrender.com/)
+[![BookFinder Screen Shot][bookFinder-screenshot]](https://book-finder-tau.vercel.app/)
 
 
 
@@ -79,7 +79,7 @@
 
 ## Live Demo
 
-[Live Demo](https://book-finder-lfxo.onrender.com/)
+[Live Demo](https://book-finder-tau.vercel.app/)
 
 
 <!-- GETTING STARTED -->
@@ -175,7 +175,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Reem Bsrat  - reembsrat@gmail.com
 
-Project Link: [https://github.com/Ree-m/book-finder](https://book-finder-lfxo.onrender.com/)
+Project Link: [https://github.com/Ree-m/book-finder](https://book-finder-tau.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
