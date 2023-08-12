@@ -29,7 +29,7 @@ const Search = () => {
       </p>
       <form onSubmit={handleSubmit}>
         <input type="text" onChange={(e) => setInput(e.target.value)} placeholder="Type book name, author,..."/>
-        <input type="submit" value="Search" className={styles.submitBtn}  />
+        <input type="submit" value="Searchbtn" className={styles.submitBtn}  />
       </form>
 
       {isLoading ? ( 
