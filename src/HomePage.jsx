@@ -39,28 +39,7 @@ const HomePage = () => {
       <Section1/>
       <Section2/>
       <Section3/>
-      {/* <div className={styles.hero}>
-
-        <form onSubmit={handleSubmit} className={styles.form}>
-          <h1 className={styles.logo}>Book finder</h1>
-
-          <input
-            className={styles.searchBar}
-            type="text"
-            placeholder="Enter book name,author,date,..."
-            onChange={(e) => setInput(e.target.value)}
-          />
-          <input type="submit" value="Submit" className={styles.btn} />
-        </form>
-
-        <img src={image} alt="Home Page image" className={styles.image}/>
-
-      </div> */}
-
-      {/* <div className={styles.books}>
-        {isLoading && input && <span>Loading...</span>}
-        {books && <Books books={books} />}
-      </div> */}
+     
 
     </div>
   );
